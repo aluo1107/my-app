@@ -7,6 +7,62 @@
   pointer-events: none;
 }
 
+/* Navigation Styling */
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.703);
+  position: fixed;
+}
+
+nav ul li a:hover {
+  color: #9a67db;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 10px;
+  margin-right: 25px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+nav ul.left {
+  justify-content: left;
+  width: 10%;
+  align-content: center;
+}
+
+nav ul.right {
+  width: 90%;
+  justify-content: right;
+}
+
+/* Header Styling */
+
+header img{
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  height: 200px;
+  margin-left: 50px;
+  
+}
+
+header {
+  padding: 100px;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
